@@ -1,0 +1,19 @@
+{
+  "name": "FirstApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" :"ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
