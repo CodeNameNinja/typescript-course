@@ -5,7 +5,7 @@ const user = new User();
 const company = new Company();
 
 const map = new Map("map");
-map.renderAtLocation(user);
+map.centerAtLocation(user);
 
 map.addMarker(user);
 map.addMarker(company);
